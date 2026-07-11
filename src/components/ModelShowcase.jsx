@@ -10,7 +10,7 @@ const MODELS = [
     name: "S-Class",
     tagline: "The Pinnacle of Luxury",
     image: sClassImg,
-    imageAlt: "Mercedes-Benz S-Class sedan parked on a rain-slicked street at night",
+    imageAlt: "Black Mercedes-Benz S-Class sedan parked on an urban street at night",
     specs: [
       "Available 4MATIC all-wheel drive",
       "Executive rear seating comfort",
@@ -46,7 +46,7 @@ const MODELS = [
     name: "AMG GT",
     tagline: "Power. Precision.",
     image: amgGtImg,
-    imageAlt: "Matte grey Mercedes-AMG GT sports coupe parked on a city street",
+    imageAlt: "Grey Mercedes-AMG GT R sports coupe with yellow track accents",
     specs: [
       "Handcrafted AMG V8 performance",
       "Race-derived aerodynamics",
