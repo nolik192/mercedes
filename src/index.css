@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Inter:wght@400;500&display=swap');
+
+@theme {
+  --color-mb-black: #0a0a0a;
+  --color-mb-charcoal: #141414;
+  --color-mb-white: #ffffff;
+  --color-mb-silver: #c0c0c0;
+  --color-mb-silver-dim: #8a8a8a;
+  --color-mb-accent: #4fc3f7;
+
+  --font-display: "Barlow", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-mb-black);
+  color: var(--color-mb-white);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
