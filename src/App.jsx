@@ -1,5 +1,6 @@
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
+import Showcase3D from "./components/Showcase3D"
 import ModelShowcase from "./components/ModelShowcase"
 import Heritage from "./components/Heritage"
 import CTASection from "./components/CTASection"
@@ -10,6 +11,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Showcase3D />
       <ModelShowcase />
       <Heritage />
       <CTASection />

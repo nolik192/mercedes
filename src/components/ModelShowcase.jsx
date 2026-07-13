@@ -10,7 +10,7 @@ const MODELS = [
     name: "S-Class",
     tagline: "The Pinnacle of Luxury",
     image: sClassImg,
-    imageAlt: "Black Mercedes-Benz S-Class sedan parked on an urban street at night",
+    imageAlt: "Black Mercedes-Benz S-Class photographed in a professional studio",
     specs: [
       "Available 4MATIC all-wheel drive",
       "Executive rear seating comfort",
@@ -22,7 +22,7 @@ const MODELS = [
     name: "EQS",
     tagline: "Electric. Unmistakable.",
     image: eqsImg,
-    imageAlt: "White Mercedes-Benz EQS with doors open in a showroom",
+    imageAlt: "Black Mercedes-Benz EQS side silhouette in golden-hour light",
     specs: [
       "Up to 780 km range (WLTP)",
       "Hyperscreen digital cockpit",
@@ -46,7 +46,8 @@ const MODELS = [
     name: "AMG GT",
     tagline: "Power. Precision.",
     image: amgGtImg,
-    imageAlt: "Grey Mercedes-AMG GT R sports coupe with yellow track accents",
+    imageAlt: "Grey Mercedes-AMG GT parked against a dramatic red rock landscape",
+    imagePosition: "center 75%",
     specs: [
       "Handcrafted AMG V8 performance",
       "Race-derived aerodynamics",
