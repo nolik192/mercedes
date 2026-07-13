@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react"
 import { useRef } from "react"
 import heroImg from "../assets/cars/hero.jpg"
-import { scrollToId } from "../motion"
+import { scrollToId, photoGrade } from "../motion"
 
 export default function Hero() {
   const ref = useRef(null)
@@ -19,8 +19,8 @@ export default function Hero() {
     >
       <motion.img
         src={heroImg}
-        alt="Close-up of the Mercedes-Benz three-pointed star hood ornament at night with bokeh city lights"
-        style={{ y, objectPosition: "center 25%" }}
+        alt="Two black Mercedes-Benz cars parked on a mountain pass road, dramatic snow-capped peaks behind"
+        style={{ y, objectPosition: "center 62%", filter: photoGrade }}
         className="absolute inset-0 h-full w-full object-cover scale-110"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-mb-black via-mb-black/50 to-mb-black/20" />

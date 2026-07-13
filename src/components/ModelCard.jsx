@@ -1,18 +1,19 @@
 import { motion } from "motion/react"
-import { fadeUp, viewportOnce, scrollToId } from "../motion"
+import { fadeUp, viewportOnce, scrollToId, photoGrade } from "../motion"
 
 export default function ModelCard({ model, reverse }) {
   return (
     <div
       className={`flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} min-h-[560px] md:min-h-[640px]`}
     >
-      <div className="w-full md:w-1/2 h-72 md:h-auto overflow-hidden">
+      <div className="relative w-full md:w-1/2 h-72 md:h-auto overflow-hidden">
         <img
           src={model.image}
           alt={model.imageAlt}
-          style={{ objectPosition: model.imagePosition ?? "center" }}
+          style={{ objectPosition: model.imagePosition ?? "center", filter: photoGrade }}
           className="w-full h-full object-cover"
         />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle,transparent_35%,rgba(10,10,10,0.6)_100%)]" />
       </div>
 
       <motion.div

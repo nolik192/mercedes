@@ -10,7 +10,8 @@ const MODELS = [
     name: "S-Class",
     tagline: "The Pinnacle of Luxury",
     image: sClassImg,
-    imageAlt: "Black Mercedes-Benz S-Class photographed in a professional studio",
+    imageAlt: "Black Mercedes-Benz S-Class parked on an urban street beside a brick building",
+    imagePosition: "center 78%",
     specs: [
       "Available 4MATIC all-wheel drive",
       "Executive rear seating comfort",
@@ -34,7 +35,7 @@ const MODELS = [
     name: "G-Class",
     tagline: "Uncompromising. Since 1979.",
     image: gClassImg,
-    imageAlt: "Black Mercedes-Benz G-Class SUV with illuminated round headlights",
+    imageAlt: "Silver Mercedes-AMG G-Class SUV against a moody overcast sky",
     specs: [
       "Three fully locking differentials",
       "Iconic boxy silhouette",
